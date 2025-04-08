@@ -33,13 +33,13 @@ jobs:
     - name: Produce artifacts baselines in all formats
       run: oscal convert -f ./content/fedramp/src/content/rev5/baselines/xml/ -o artifacts/content/rev5/baselines/ -s
     - name: Produce artifacts for ssp
-      run: oscal convert -f ./content/fedramp/src/content/rev5/ssp/xml/ -o artifacts/content/rev5/templates/ssp -s
+      run: oscal convert -f ./content/fedramp/src/content/rev5/templates/ssp/xml/ -o artifacts/content/rev5/templates/ssp -s
     - name: Produce artifacts for poam
-      run: oscal convert -f ./content/fedramp/src/content/rev5/poam/xml -o artifacts/content/rev5/templates/poam -s
+      run: oscal convert -f ./content/fedramp/src/content/rev5/templates/poam/xml -o artifacts/content/rev5/templates/poam -s
     - name: Produce artifacts for sap
-      run: oscal convert -f ./content/fedramp/src/content/rev5/sap/xml -o artifacts/content/rev5/templates/sap -s
+      run: oscal convert -f ./content/fedramp/src/content/rev5/templates/sap/xml -o artifacts/content/rev5/templates/sap -s
     - name: Produce artifacts for sar
-      run: oscal convert -f ./content/fedramp/src/content/rev5/sar/xml -o artifacts/content/rev5/templates/sar -s
+      run: oscal convert -f ./content/fedramp/src/content/rev5/templates/sar/xml -o artifacts/content/rev5/templates/sar -s
 
     - name: Resolve FedRAMP HIGH baseline profile
       run: oscal resolve -f ./content/fedramp/src/content/rev5/baselines/xml/FedRAMP_rev5_HIGH-baseline_profile.xml -o ./artifacts/content/rev5/baselines/xml/FedRAMP_rev5_HIGH-baseline-resolved-profile_catalog.xml -s
