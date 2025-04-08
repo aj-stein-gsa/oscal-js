@@ -393,11 +393,11 @@
                 <p>NIST Special Publication 800-53 Revision 4: Moderate Baseline Profile</p>
             </description>
             <rlink media-type="application/oscal.catalog+xml"
-                href="../../../nist.gov/SP800-53/rev4/xml/NIST_SP-800-53_rev4_MODERATE-baseline_profile.xml" />
+                href="../content/nist/nist.gov/SP800-53/rev4/xml/NIST_SP-800-53_rev4_MODERATE-baseline_profile.xml" />
             <rlink media-type="application/oscal.catalog+json"
-                href="../../../nist.gov/SP800-53/rev4/json/NIST_SP-800-53_rev4_MODERATE-baseline_profile.json" />
+                href="../content/nist/nist.gov/SP800-53/rev4/json/NIST_SP-800-53_rev4_MODERATE-baseline_profile.json" />
             <rlink media-type="application/oscal.catalog+yaml"
-                href="../../../nist.gov/SP800-53/rev4/yaml/NIST_SP-800-53_rev4_MODERATE-baseline_profile.yaml" />
+                href="../content/nist/nist.gov/SP800-53/rev4/yaml/NIST_SP-800-53_rev4_MODERATE-baseline_profile.yaml" />
         </resource>
     </back-matter>
 </system-security-plan>
